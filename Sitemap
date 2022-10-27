@@ -1,0 +1,24 @@
+<?php
+
+namespace App\Components;
+
+class Sitemap
+{
+    CONST siteMapArray = [
+        [
+            'route'=>'home',
+            'label'=>'الرئيسية',
+            'parent'=>''
+        ],
+        [
+            'route'=>'about',
+            'label'=>'من نحن',
+            'parent'=>'home'
+        ],
+        [
+            'route'=>'contact-us',
+            'label'=>'اتصل بنا',
+            'parent'=>'home'
+        ],
+    ];
+}
